@@ -1,5 +1,5 @@
 data = []
-answer = ''
+answer = False
 for i in range(int(input())):
     data.append(int(input()))
 n = int(input())
@@ -10,6 +10,6 @@ for i in range(len(data)):
         if data[i] == data[j]:
             continue
         if data[i] * data[j] == n:
-            answer = 'ДА'
+            answer = True
             break
-print(answer) if answer else print('НЕТ')
+print('ДА') if answer else print('НЕТ')
