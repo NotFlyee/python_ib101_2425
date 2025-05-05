@@ -7,7 +7,3 @@ def quarter(xcoord, ycoord):
         print('III четверть')
     else:
         print('IV четверть')
-
-
-quarter(3, 4)
-quarter(-3.5, 8)
