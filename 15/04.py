@@ -4,5 +4,3 @@ def who_are_you_and_hello():
         name = input()
     print(f'Привет, {name}')
 
-
-who_are_you_and_hello()
