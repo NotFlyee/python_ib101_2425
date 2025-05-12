@@ -34,5 +34,3 @@ def number_to_words(n: int):
         n = (n // 10 * 10, n % 10)
         return data[n[0]] + ' ' + data[n[1]]
 
-
-print(number_to_words(99))
