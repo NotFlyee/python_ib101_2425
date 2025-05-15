@@ -1,6 +1,4 @@
-def continue_fibonacci_sequence(seq, n):
-    global sequence
+def continue_fibonacci_sequence(sequence, n):
     for i in range(n):
-        next_element = seq[-1] + seq[-2]
-        seq = seq + [next_element]
-    sequence = seq
+        next_element = sequence[-1] + sequence[-2]
+        sequence += [next_element]
