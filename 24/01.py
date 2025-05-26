@@ -11,6 +11,3 @@ def twist_image(input_ﬁle_name: str, output_ﬁle_name: str):
     new_image.paste(left_side, (int(width * 0.5), 0))
 
     new_image.save(output_file_name)
-
-
-twist_image('p_24_09.png', 'res.jpg')
