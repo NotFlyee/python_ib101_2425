@@ -1,6 +1,6 @@
 # подло не давать примеры ввода для такой задачи
 
-import sys, pprint
+import sys
 from docx import Document
 
 
@@ -47,7 +47,6 @@ def markdown_to_docx(text: str):
         else:
             new_line, style = get_style(line)
             marked_lines.append((new_line, ('paragraph', {'style': style})))
-    pprint.pprint(marked_lines)
 
     doc = Document()
     for line, (type, extra) in marked_lines:
